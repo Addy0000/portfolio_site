@@ -1,0 +1,51 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.navigation-bar{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    padding: 12px 50px 0 0;
+    gap: 50px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.nav-link{
+    color: aliceblue;
+}
+
+.hero{
+    background-color: #262626;
+    height: 80vh;
+}
+
+#chad{
+    height: 265px;
+    width: 250px;
+    /*object-fit: cover;*/
+}
+
+.hero_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0 0 0;
+    gap: 10em;
+}
+
+.hero_text{
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+.hero_name{
+    font-size: 30px;
+}
