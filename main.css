@@ -2,9 +2,11 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-size: 16px;
 }
 
 .navigation-bar{
+    font-family: 'Source Sans Pro', sans-serif;
     background-color: black;
     height: 50px;
     display: flex;
@@ -15,7 +17,7 @@ box-sizing: border-box;
 
 a{
     text-decoration: none;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .nav-link{
@@ -25,10 +27,14 @@ a{
 .hero{
     background-color: #262626;
     height: 80vh;
+    position: relative;
+    bottom: 15px;
+    padding: 0 180px;
 }
 
 #chad{
-    height: 265px;
+    border-radius: 54%;
+    height: 250px;
     width: 250px;
     /*object-fit: cover;*/
 }
@@ -36,16 +42,27 @@ a{
 .hero_content{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 80px 0 0 0;
-    gap: 10em;
+    /*gap: 10em;*/
 }
 
 .hero_text{
+    font-family: 'Source Sans Pro', sans-serif;
     color: whitesmoke;
-    font-size: 12px;
+    font-size: 21px;
 }
 
 .hero_name{
     font-size: 30px;
+}
+
+.socials{
+    bottom: 30px;
+    left: 170px;
+    position: absolute;
+}
+
+.skills{
+    padding: 0 180px;
 }
