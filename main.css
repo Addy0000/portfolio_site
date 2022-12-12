@@ -2,13 +2,12 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-size: 16px;
+font-family: 'Source Sans Pro', sans-serif;
 }
 
 .navigation-bar{
-    font-family: 'Source Sans Pro', sans-serif;
     background-color: black;
-    height: 50px;
+    height: 60px;
     display: flex;
     justify-content: right;
     padding: 12px 50px 0 0;
@@ -28,14 +27,14 @@ a{
     background-color: #262626;
     height: 80vh;
     position: relative;
-    bottom: 15px;
-    padding: 0 180px;
+    padding: 0 260px;
+    /*border-bottom: 5px lightcyan;*/
 }
 
 #chad{
     border-radius: 54%;
-    height: 250px;
-    width: 250px;
+    height: 35%;
+    width: 35%;
     /*object-fit: cover;*/
 }
 
@@ -48,21 +47,53 @@ a{
 }
 
 .hero_text{
-    font-family: 'Source Sans Pro', sans-serif;
     color: whitesmoke;
-    font-size: 21px;
+    font-size: 16px;
 }
 
 .hero_name{
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .socials{
     bottom: 30px;
-    left: 170px;
+    left: 280px;
     position: absolute;
 }
 
-.skills{
-    padding: 0 180px;
+.content{
+    color: white;
+    background-color: black;
+    padding: 0 170px;
+}
+
+.heading{
+    /*border-bottom: 2px solid black;*/
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.button{
+    background-color: #262626;
+    border: none;
+    border-radius: 12%;
+    color: white;
+    height: 400px;
+    padding: 12px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.footer{
+    padding: 20px 170px;
+    background-color: darkgrey;
+    height: 200px;
 }
